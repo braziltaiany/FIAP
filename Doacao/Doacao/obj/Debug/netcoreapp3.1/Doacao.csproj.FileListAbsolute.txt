@@ -1,0 +1,16 @@
+C:\Users\brazi\source\repos\Doacao\Doacao\bin\Debug\netcoreapp3.1\Doacao.exe
+C:\Users\brazi\source\repos\Doacao\Doacao\bin\Debug\netcoreapp3.1\Doacao.deps.json
+C:\Users\brazi\source\repos\Doacao\Doacao\bin\Debug\netcoreapp3.1\Doacao.runtimeconfig.json
+C:\Users\brazi\source\repos\Doacao\Doacao\bin\Debug\netcoreapp3.1\Doacao.runtimeconfig.dev.json
+C:\Users\brazi\source\repos\Doacao\Doacao\bin\Debug\netcoreapp3.1\Doacao.dll
+C:\Users\brazi\source\repos\Doacao\Doacao\bin\Debug\netcoreapp3.1\Doacao.pdb
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.csproj.AssemblyReference.cache
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.Form1.resources
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.csproj.GenerateResource.cache
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.AssemblyInfoInputs.cache
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.AssemblyInfo.cs
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.csproj.CoreCompileInputs.cache
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.dll
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.pdb
+C:\Users\brazi\source\repos\Doacao\Doacao\obj\Debug\netcoreapp3.1\Doacao.genruntimeconfig.cache
