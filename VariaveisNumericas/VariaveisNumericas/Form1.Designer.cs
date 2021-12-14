@@ -35,9 +35,9 @@ namespace VariaveisNumericas
             this.label2 = new System.Windows.Forms.Label();
             this.btnSomar = new System.Windows.Forms.Button();
             this.lblRes = new System.Windows.Forms.Label();
-            this.btnSubtrair = new System.Windows.Forms.Button();
-            this.btnMultiplicar = new System.Windows.Forms.Button();
-            this.btnDividir = new System.Windows.Forms.Button();
+            this.btnSub = new System.Windows.Forms.Button();
+            this.btnMult = new System.Windows.Forms.Button();
+            this.btnDiv = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -91,44 +91,44 @@ namespace VariaveisNumericas
             this.lblRes.TabIndex = 5;
             this.lblRes.Text = "Resultado";
             // 
-            // btnSubtrair
+            // btnSub
             // 
-            this.btnSubtrair.Location = new System.Drawing.Point(11, 119);
-            this.btnSubtrair.Name = "btnSubtrair";
-            this.btnSubtrair.Size = new System.Drawing.Size(239, 23);
-            this.btnSubtrair.TabIndex = 10;
-            this.btnSubtrair.Text = "Subtrair";
-            this.btnSubtrair.UseVisualStyleBackColor = true;
-            this.btnSubtrair.Click += new System.EventHandler(this.btnSub_Click);
+            this.btnSub.Location = new System.Drawing.Point(11, 119);
+            this.btnSub.Name = "btnSub";
+            this.btnSub.Size = new System.Drawing.Size(239, 23);
+            this.btnSub.TabIndex = 10;
+            this.btnSub.Text = "Subtrair";
+            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
-            // btnMultiplicar
+            // btnMult
             // 
-            this.btnMultiplicar.Location = new System.Drawing.Point(12, 148);
-            this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(239, 23);
-            this.btnMultiplicar.TabIndex = 16;
-            this.btnMultiplicar.Text = "Multiplicar";
-            this.btnMultiplicar.UseVisualStyleBackColor = true;
-            this.btnMultiplicar.Click += new System.EventHandler(this.btnMult_Click);
+            this.btnMult.Location = new System.Drawing.Point(12, 148);
+            this.btnMult.Name = "btnMult";
+            this.btnMult.Size = new System.Drawing.Size(239, 23);
+            this.btnMult.TabIndex = 16;
+            this.btnMult.Text = "Multiplicar";
+            this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
-            // btnDividir
+            // btnDiv
             // 
-            this.btnDividir.Location = new System.Drawing.Point(12, 177);
-            this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(239, 23);
-            this.btnDividir.TabIndex = 17;
-            this.btnDividir.Text = "Dividir";
-            this.btnDividir.UseVisualStyleBackColor = true;
-            this.btnDividir.Click += new System.EventHandler(this.btnDiv_Click);
+            this.btnDiv.Location = new System.Drawing.Point(12, 177);
+            this.btnDiv.Name = "btnDiv";
+            this.btnDiv.Size = new System.Drawing.Size(239, 23);
+            this.btnDiv.TabIndex = 17;
+            this.btnDiv.Text = "Dividir";
+            this.btnDiv.UseVisualStyleBackColor = true;
+            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(265, 240);
-            this.Controls.Add(this.btnDividir);
-            this.Controls.Add(this.btnMultiplicar);
-            this.Controls.Add(this.btnSubtrair);
+            this.Controls.Add(this.btnDiv);
+            this.Controls.Add(this.btnMult);
+            this.Controls.Add(this.btnSub);
             this.Controls.Add(this.lblRes);
             this.Controls.Add(this.btnSomar);
             this.Controls.Add(this.textNum2);
@@ -150,9 +150,9 @@ namespace VariaveisNumericas
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSomar;
         private System.Windows.Forms.Label lblRes;
-        private System.Windows.Forms.Button btnSubtrair;
-        private System.Windows.Forms.Button btnMultiplicar;
-        private System.Windows.Forms.Button btnDividir;
+        private System.Windows.Forms.Button btnSub;
+        private System.Windows.Forms.Button btnMult;
+        private System.Windows.Forms.Button btnDiv;
     }
 }
 
