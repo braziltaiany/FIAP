@@ -1,0 +1,16 @@
+C:\fiap\Km\Km\bin\Debug\netcoreapp3.1\Km.exe
+C:\fiap\Km\Km\bin\Debug\netcoreapp3.1\Km.deps.json
+C:\fiap\Km\Km\bin\Debug\netcoreapp3.1\Km.runtimeconfig.json
+C:\fiap\Km\Km\bin\Debug\netcoreapp3.1\Km.runtimeconfig.dev.json
+C:\fiap\Km\Km\bin\Debug\netcoreapp3.1\Km.dll
+C:\fiap\Km\Km\bin\Debug\netcoreapp3.1\Km.pdb
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.csproj.AssemblyReference.cache
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.Form1.resources
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.csproj.GenerateResource.cache
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.GeneratedMSBuildEditorConfig.editorconfig
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.AssemblyInfoInputs.cache
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.AssemblyInfo.cs
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.csproj.CoreCompileInputs.cache
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.dll
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.pdb
+C:\fiap\Km\Km\obj\Debug\netcoreapp3.1\Km.genruntimeconfig.cache
