@@ -12,6 +12,7 @@ namespace VariaveisNumericas
 {
     public partial class Form1 : Form
     {
+        //declaração de variável em escopo global
         double n1, n2, res;
         public Form1()
         {
