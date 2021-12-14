@@ -1,0 +1,16 @@
+C:\fiap\ifSimples\IfComposto\bin\Debug\netcoreapp3.1\IfComposto.exe
+C:\fiap\ifSimples\IfComposto\bin\Debug\netcoreapp3.1\IfComposto.deps.json
+C:\fiap\ifSimples\IfComposto\bin\Debug\netcoreapp3.1\IfComposto.runtimeconfig.json
+C:\fiap\ifSimples\IfComposto\bin\Debug\netcoreapp3.1\IfComposto.runtimeconfig.dev.json
+C:\fiap\ifSimples\IfComposto\bin\Debug\netcoreapp3.1\IfComposto.dll
+C:\fiap\ifSimples\IfComposto\bin\Debug\netcoreapp3.1\IfComposto.pdb
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.csproj.AssemblyReference.cache
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.Form1.resources
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.csproj.GenerateResource.cache
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.GeneratedMSBuildEditorConfig.editorconfig
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.AssemblyInfoInputs.cache
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.AssemblyInfo.cs
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.csproj.CoreCompileInputs.cache
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.dll
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.pdb
+C:\fiap\ifSimples\IfComposto\obj\Debug\netcoreapp3.1\IfComposto.genruntimeconfig.cache

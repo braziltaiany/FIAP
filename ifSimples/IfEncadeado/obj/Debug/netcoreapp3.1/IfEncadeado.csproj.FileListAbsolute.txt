@@ -1,0 +1,16 @@
+C:\fiap\ifSimples\IfEncadeado\bin\Debug\netcoreapp3.1\IfEncadeado.exe
+C:\fiap\ifSimples\IfEncadeado\bin\Debug\netcoreapp3.1\IfEncadeado.deps.json
+C:\fiap\ifSimples\IfEncadeado\bin\Debug\netcoreapp3.1\IfEncadeado.runtimeconfig.json
+C:\fiap\ifSimples\IfEncadeado\bin\Debug\netcoreapp3.1\IfEncadeado.runtimeconfig.dev.json
+C:\fiap\ifSimples\IfEncadeado\bin\Debug\netcoreapp3.1\IfEncadeado.dll
+C:\fiap\ifSimples\IfEncadeado\bin\Debug\netcoreapp3.1\IfEncadeado.pdb
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.csproj.AssemblyReference.cache
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.Form1.resources
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.csproj.GenerateResource.cache
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.GeneratedMSBuildEditorConfig.editorconfig
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.AssemblyInfoInputs.cache
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.AssemblyInfo.cs
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.csproj.CoreCompileInputs.cache
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.dll
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.pdb
+C:\fiap\ifSimples\IfEncadeado\obj\Debug\netcoreapp3.1\IfEncadeado.genruntimeconfig.cache
