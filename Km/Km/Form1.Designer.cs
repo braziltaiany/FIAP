@@ -89,7 +89,7 @@ namespace Km
             this.lblResultado.Size = new System.Drawing.Size(87, 15);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "média de km/L";
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
+
             // 
             // label3
             // 

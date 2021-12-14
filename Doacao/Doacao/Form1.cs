@@ -20,8 +20,8 @@ namespace Doacao
 
         private void btnConversao_Click(object sender, EventArgs e)
         {
-            doacao = Convert.ToDouble(textDoacao.Text);
-            dolar = Convert.ToDouble(textDolar.Text);
+            doacao = Convert.ToDouble(textDoacao.Text.Replace(".", ","));
+            dolar = Convert.ToDouble(textDolar.Text.Replace(".", ","));
 
             conversao = doacao * dolar;
 

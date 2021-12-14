@@ -30,9 +30,5 @@ namespace Km
             lblResultado.Text = $" A autonomia deste veículo é de {media.ToString("F2")} km por litro";
         }
 
-        private void lblResultado_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
