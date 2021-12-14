@@ -84,11 +84,12 @@ namespace Km
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(125, 262);
+            this.lblResultado.Location = new System.Drawing.Point(36, 270);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(87, 15);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "média de km/L";
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // label3
             // 

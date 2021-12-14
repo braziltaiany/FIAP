@@ -19,17 +19,20 @@ namespace Km
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double painel, viagem, total, media, litros;
+            double painel, viagem, media, litros;
 
             painel = Convert.ToDouble(textPainel.Text);
             viagem = Convert.ToDouble(textViagem.Text);
             litros = Convert.ToDouble(textLitros.Text);
 
+            media = (viagem - painel) / litros;
 
-            total = viagem - painel;
-            media = total / litros;
+            lblResultado.Text = $" A autonomia deste veículo é de {media.ToString("F2")} km por litro";
+        }
 
-            lblResultado.Text = media.ToString("F2");
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
