@@ -1,0 +1,16 @@
+C:\fiap\VariaveisNumericas\VariaveisNumericas\bin\Debug\netcoreapp3.1\VariaveisNumericas.exe
+C:\fiap\VariaveisNumericas\VariaveisNumericas\bin\Debug\netcoreapp3.1\VariaveisNumericas.deps.json
+C:\fiap\VariaveisNumericas\VariaveisNumericas\bin\Debug\netcoreapp3.1\VariaveisNumericas.runtimeconfig.json
+C:\fiap\VariaveisNumericas\VariaveisNumericas\bin\Debug\netcoreapp3.1\VariaveisNumericas.runtimeconfig.dev.json
+C:\fiap\VariaveisNumericas\VariaveisNumericas\bin\Debug\netcoreapp3.1\VariaveisNumericas.dll
+C:\fiap\VariaveisNumericas\VariaveisNumericas\bin\Debug\netcoreapp3.1\VariaveisNumericas.pdb
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.csproj.AssemblyReference.cache
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.Form1.resources
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.csproj.GenerateResource.cache
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.GeneratedMSBuildEditorConfig.editorconfig
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.AssemblyInfoInputs.cache
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.AssemblyInfo.cs
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.csproj.CoreCompileInputs.cache
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.dll
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.pdb
+C:\fiap\VariaveisNumericas\VariaveisNumericas\obj\Debug\netcoreapp3.1\VariaveisNumericas.genruntimeconfig.cache
