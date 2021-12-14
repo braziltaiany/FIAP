@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafiosDia2", "DesafiosDia2\DesafiosDia2.csproj", "{002289D5-3537-4718-97CF-F5CE564D2B9B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio1", "Exercicio1\Exercicio1.csproj", "{D74BC85C-7AA4-4A1A-9FC6-91902C508775}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2", "Exercicio2\Exercicio2.csproj", "{8511BA6B-66F0-4D82-B1DE-34F60CD435BD}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{002289D5-3537-4718-97CF-F5CE564D2B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{002289D5-3537-4718-97CF-F5CE564D2B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{002289D5-3537-4718-97CF-F5CE564D2B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{002289D5-3537-4718-97CF-F5CE564D2B9B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D74BC85C-7AA4-4A1A-9FC6-91902C508775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D74BC85C-7AA4-4A1A-9FC6-91902C508775}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74BC85C-7AA4-4A1A-9FC6-91902C508775}.Release|Any CPU.ActiveCfg = Release|Any CPU
