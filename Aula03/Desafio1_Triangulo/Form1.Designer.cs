@@ -30,9 +30,9 @@ namespace Desafio1_Triangulo
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textLado1 = new System.Windows.Forms.TextBox();
-            this.textLado2 = new System.Windows.Forms.TextBox();
             this.textLado3 = new System.Windows.Forms.TextBox();
+            this.textLado2 = new System.Windows.Forms.TextBox();
+            this.textLado1 = new System.Windows.Forms.TextBox();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -49,12 +49,12 @@ namespace Desafio1_Triangulo
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Digite os valores dos lados do triangulo: ";
             // 
-            // textLado1
+            // textLado3
             // 
-            this.textLado1.Location = new System.Drawing.Point(7, 23);
-            this.textLado1.Name = "textLado1";
-            this.textLado1.Size = new System.Drawing.Size(232, 23);
-            this.textLado1.TabIndex = 0;
+            this.textLado3.Location = new System.Drawing.Point(7, 83);
+            this.textLado3.Name = "textLado3";
+            this.textLado3.Size = new System.Drawing.Size(232, 23);
+            this.textLado3.TabIndex = 2;
             // 
             // textLado2
             // 
@@ -63,12 +63,12 @@ namespace Desafio1_Triangulo
             this.textLado2.Size = new System.Drawing.Size(232, 23);
             this.textLado2.TabIndex = 1;
             // 
-            // textLado3
+            // textLado1
             // 
-            this.textLado3.Location = new System.Drawing.Point(7, 83);
-            this.textLado3.Name = "textLado3";
-            this.textLado3.Size = new System.Drawing.Size(232, 23);
-            this.textLado3.TabIndex = 2;
+            this.textLado1.Location = new System.Drawing.Point(7, 23);
+            this.textLado1.Name = "textLado1";
+            this.textLado1.Size = new System.Drawing.Size(232, 23);
+            this.textLado1.TabIndex = 0;
             // 
             // btnVerificar
             // 
