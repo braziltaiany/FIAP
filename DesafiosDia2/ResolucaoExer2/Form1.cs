@@ -21,7 +21,16 @@ namespace ResolucaoExer2
         {
             double saldo, credito;
 
-            saldo = double.Parse(textSaldo.Text);
+           
+            if(double.TryParse(textSaldo.Text, out saldo) == false)
+            {
+                MessageBox.Show("Digite um número válido", "ATENÇÃO",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textSaldo.Clear(); // limpa a textbox
+                textSaldo.Focus(); // posiona o cursor no componente, que no caso é o campo do saldo
+                lblCredito.Text = ""; // limpa a label
+                return; //Abortar, para o programa.
+            }
 
             if(saldo <= 200)
             {
