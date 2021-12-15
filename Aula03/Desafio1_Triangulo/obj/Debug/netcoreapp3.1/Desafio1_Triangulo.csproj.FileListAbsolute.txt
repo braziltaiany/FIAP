@@ -1,0 +1,16 @@
+C:\fiap\Aula03\Desafio1_Triangulo\bin\Debug\netcoreapp3.1\Desafio1_Triangulo.exe
+C:\fiap\Aula03\Desafio1_Triangulo\bin\Debug\netcoreapp3.1\Desafio1_Triangulo.deps.json
+C:\fiap\Aula03\Desafio1_Triangulo\bin\Debug\netcoreapp3.1\Desafio1_Triangulo.runtimeconfig.json
+C:\fiap\Aula03\Desafio1_Triangulo\bin\Debug\netcoreapp3.1\Desafio1_Triangulo.runtimeconfig.dev.json
+C:\fiap\Aula03\Desafio1_Triangulo\bin\Debug\netcoreapp3.1\Desafio1_Triangulo.dll
+C:\fiap\Aula03\Desafio1_Triangulo\bin\Debug\netcoreapp3.1\Desafio1_Triangulo.pdb
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.csproj.AssemblyReference.cache
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.Form1.resources
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.csproj.GenerateResource.cache
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.AssemblyInfoInputs.cache
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.AssemblyInfo.cs
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.csproj.CoreCompileInputs.cache
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.dll
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.pdb
+C:\fiap\Aula03\Desafio1_Triangulo\obj\Debug\netcoreapp3.1\Desafio1_Triangulo.genruntimeconfig.cache
