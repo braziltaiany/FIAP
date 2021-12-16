@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Desafio3_Switch_TransacaoBancaria
@@ -24,15 +17,13 @@ namespace Desafio3_Switch_TransacaoBancaria
 
             valor = double.Parse(textValor.Text);
 
-
             switch (cmbOperacao.SelectedIndex)
             {
                 case 0:
                     saldo = saldo + valor;
                     MessageBox.Show("Seu deposito foi efetuado");
                     break;
-                case 1:
-                    
+                case 1:                    
                     saldo = saldo - valor;
                     MessageBox.Show("Seu saque foi efetuado");
                     break;
