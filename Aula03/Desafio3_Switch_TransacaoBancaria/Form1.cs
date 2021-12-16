@@ -12,6 +12,7 @@ namespace Desafio3_Switch_TransacaoBancaria
 {
     public partial class Form1 : Form
     {
+        double saldo = 0;
         public Form1()
         {
             InitializeComponent();
@@ -19,25 +20,23 @@ namespace Desafio3_Switch_TransacaoBancaria
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            double saque, deposito, saldo;
+            double valor;
 
-            saldo = 0;
+            valor = double.Parse(textValor.Text);
 
 
             switch (cmbOperacao.SelectedIndex)
             {
                 case 0:
-                    deposito = double.Parse(textValor.Text);
-                    saldo = saldo + deposito;
-                    MessageBox.Show($"Seu deposito é: {deposito} e seu saldo total é: {saldo}");
+                    saldo = saldo + valor;
+                    MessageBox.Show("Seu deposito foi efetuado");
                     break;
                 case 1:
-                    saque = double.Parse(textValor.Text);
-                    saldo = saldo - saque;
-                    MessageBox.Show($"Seu saque foi de: {saque} e seu saldo total é: {saldo}");
+                    
+                    saldo = saldo - valor;
+                    MessageBox.Show("Seu saque foi efetuado");
                     break;
-                case 2:                    
-                    saldo = double.Parse(textValor.Text);
+                case 2:
                     MessageBox.Show($"Seu saldo é: {saldo}");
                     break;
                 default:
