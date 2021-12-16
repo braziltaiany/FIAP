@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\fiap\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj": {}
+    "C:\\FIAP\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj": {}
   },
   "projects": {
-    "C:\\fiap\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj": {
+    "C:\\FIAP\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\fiap\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj",
+        "projectUniqueName": "C:\\FIAP\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj",
         "projectName": "Desafio1_Resolvido",
-        "projectPath": "C:\\fiap\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj",
+        "projectPath": "C:\\FIAP\\Aula03\\Desafio1_Resolvido\\Desafio1_Resolvido.csproj",
         "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
-        "outputPath": "C:\\fiap\\Aula03\\Desafio1_Resolvido\\obj\\",
+        "outputPath": "C:\\FIAP\\Aula03\\Desafio1_Resolvido\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
