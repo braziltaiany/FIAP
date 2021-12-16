@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIAP\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj": {}
+    "C:\\fiap\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj": {}
   },
   "projects": {
-    "C:\\FIAP\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj": {
+    "C:\\fiap\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIAP\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj",
+        "projectUniqueName": "C:\\fiap\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj",
         "projectName": "Desafio3_Switch_TransacaoBancaria",
-        "projectPath": "C:\\FIAP\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj",
+        "projectPath": "C:\\fiap\\Aula03\\Desafio3_Switch_TransacaoBancaria\\Desafio3_Switch_TransacaoBancaria.csproj",
         "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
-        "outputPath": "C:\\FIAP\\Aula03\\Desafio3_Switch_TransacaoBancaria\\obj\\",
+        "outputPath": "C:\\fiap\\Aula03\\Desafio3_Switch_TransacaoBancaria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

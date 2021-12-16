@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIAP\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj": {}
+    "C:\\fiap\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj": {}
   },
   "projects": {
-    "C:\\FIAP\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj": {
+    "C:\\fiap\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIAP\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj",
+        "projectUniqueName": "C:\\fiap\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj",
         "projectName": "Desafio1_Triangulo",
-        "projectPath": "C:\\FIAP\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj",
+        "projectPath": "C:\\fiap\\Aula03\\Desafio1_Triangulo\\Desafio1_Triangulo.csproj",
         "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
-        "outputPath": "C:\\FIAP\\Aula03\\Desafio1_Triangulo\\obj\\",
+        "outputPath": "C:\\fiap\\Aula03\\Desafio1_Triangulo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

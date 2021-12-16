@@ -33,7 +33,6 @@ namespace Desafio3_Switch_TransacaoBancaria
                 default:
                     MessageBox.Show("Escolha uma operação");
                     break;
-
             }
 
         }

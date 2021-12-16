@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIAP\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj": {}
+    "C:\\fiap\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj": {}
   },
   "projects": {
-    "C:\\FIAP\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj": {
+    "C:\\fiap\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIAP\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj",
+        "projectUniqueName": "C:\\fiap\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj",
         "projectName": "ExemploComboBox",
-        "projectPath": "C:\\FIAP\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj",
+        "projectPath": "C:\\fiap\\Aula03\\ExemploComboBox\\ExemploComboBox.csproj",
         "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
-        "outputPath": "C:\\FIAP\\Aula03\\ExemploComboBox\\obj\\",
+        "outputPath": "C:\\fiap\\Aula03\\ExemploComboBox\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

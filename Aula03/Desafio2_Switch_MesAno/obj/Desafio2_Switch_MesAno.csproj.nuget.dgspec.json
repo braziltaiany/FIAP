@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIAP\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj": {}
+    "C:\\fiap\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj": {}
   },
   "projects": {
-    "C:\\FIAP\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj": {
+    "C:\\fiap\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIAP\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj",
+        "projectUniqueName": "C:\\fiap\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj",
         "projectName": "Desafio2_Switch_MesAno",
-        "projectPath": "C:\\FIAP\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj",
+        "projectPath": "C:\\fiap\\Aula03\\Desafio2_Switch_MesAno\\Desafio2_Switch_MesAno.csproj",
         "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
-        "outputPath": "C:\\FIAP\\Aula03\\Desafio2_Switch_MesAno\\obj\\",
+        "outputPath": "C:\\fiap\\Aula03\\Desafio2_Switch_MesAno\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
