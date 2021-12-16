@@ -20,15 +20,18 @@ namespace Desafio3_resolvido
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            double valor;
+            double valor = 0;
 
             //valor = double.Parse(textValor.Text); ou com tratamento de erro
-            if(double.TryParse(textValor.Text, out valor) == false)
+            if (!(cmbOpcao.SelectedIndex == 2))//quando a comboBox for igual a "ver saldo" mostre o saldo, mas se for diferente verificar o tryParse
             {
-                MessageBox.Show("");
-                textValor.Clear();
-                textValor.Focus();
-                return;
+                if (double.TryParse(textValor.Text, out valor) == false)
+                {
+                    MessageBox.Show("Digite um valor válido!!!");
+                    textValor.Clear();
+                    textValor.Focus();
+                    return;
+                }
             }
 
             switch (cmbOpcao.SelectedIndex)
