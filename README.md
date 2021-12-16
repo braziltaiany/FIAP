@@ -7,3 +7,5 @@
 * 📚Variáveis númericas
 * 📚Operadores lógicos
 * 📚Desafios numéricos em C#
+* 📚Estrutura repetitiva
+* 📚Estrutura condicional
