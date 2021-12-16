@@ -1,0 +1,16 @@
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\bin\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.exe
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\bin\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.deps.json
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\bin\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.runtimeconfig.json
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\bin\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.runtimeconfig.dev.json
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\bin\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.dll
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\bin\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.pdb
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.csproj.AssemblyReference.cache
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.Form1.resources
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.csproj.GenerateResource.cache
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.AssemblyInfoInputs.cache
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.AssemblyInfo.cs
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.csproj.CoreCompileInputs.cache
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.dll
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.pdb
+C:\fiap\Aula03\Desafio3_Switch_TransacaoBancaria\obj\Debug\netcoreapp3.1\Desafio3_Switch_TransacaoBancaria.genruntimeconfig.cache
