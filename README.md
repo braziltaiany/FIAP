@@ -1,11 +1,15 @@
- 📌FIAP
- # C#:
+#📌FIAP
 
-
-* 📚Primeiros passos com C#
-* 📚Criando WinFormsApp
-* 📚Variáveis númericas
-* 📚Operadores lógicos
-* 📚Desafios numéricos em C#
-* 📚Estrutura repetitiva
-* 📚Estrutura condicional
+* 📚 C#.NET:
+	* 📚Criando WinFormsApp
+	* 📚Variáveis númericas
+	* 📚Operadores lógicos	
+	* 📚Estrutura repetitiva
+	* 📚Estrutura condicional
+	* 📚Array
+	* 📚Matrizes
+	* 📚Desafios
+* 📚GitHub
+* 📚DevOps & Agile Culture
+* 📚MySQL
+* 📚Services Architecture / API / Mobile

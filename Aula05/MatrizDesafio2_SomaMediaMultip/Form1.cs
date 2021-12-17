@@ -80,7 +80,7 @@ namespace MatrizDesafio2_SomaMediaMultip
 
             int multip, a, b;
 
-            for (int linha = 0; linha < 4; linha++)
+            for (int linha = 2; linha < 4; linha++)
             {
                 for (int coluna = 0; coluna < 4; coluna++)
                 {
@@ -93,12 +93,11 @@ namespace MatrizDesafio2_SomaMediaMultip
                         b = numeros[3, coluna];
 
                         multip = a * b;
-
-                        //lstResultado.Items.Add($"a:{a} e b:{b}");
-
+                        lstResultado.Items.Add($"{a} X {b} = {multip}");
+                        
                         //if (multip != null)
                         //{
-                            lstResultado.Items.Add($"Multiplicação: {multip}");
+                        //lstResultado.Items.Add($"{a} X {b} = {multip}");
                         //}
                     }
                 }
