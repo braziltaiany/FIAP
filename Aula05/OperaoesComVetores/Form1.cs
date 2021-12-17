@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
 
@@ -57,11 +50,11 @@ namespace OperaoesComVetores
             
             Array.Sort(cores);
             
-            object corEscolhita = "verde";//pode receber um valor de qualquer tipo - ser int, double,string,objeto/ desvantagem alto consumo de memória
+            object corEscolhita = "amarelo";//pode receber um valor de qualquer tipo - ser int, double,string,objeto/ desvantagem alto consumo de memória
             
             int indice = Array.BinarySearch(cores, corEscolhita);
             
-            if (indice > 0)
+            if (indice >= 0)
             {
                 MessageBox.Show($"Achei o elemento no indice {indice.ToString()}");
             }

@@ -1,5 +1,5 @@
 ﻿
-namespace ExibirMatrizTabela
+namespace Desafio1Matrizes_SomaTodosElementos
 {
     partial class Form1
     {
@@ -29,25 +29,25 @@ namespace ExibirMatrizTabela
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnIniciar = new System.Windows.Forms.Button();
+            this.btnExibir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnIniciar
+            // btnExibir
             // 
-            this.btnIniciar.Location = new System.Drawing.Point(21, 32);
-            this.btnIniciar.Name = "btnIniciar";
-            this.btnIniciar.Size = new System.Drawing.Size(103, 50);
-            this.btnIniciar.TabIndex = 1;
-            this.btnIniciar.Text = "Ler e contar pares";
-            this.btnIniciar.UseVisualStyleBackColor = true;
-            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
+            this.btnExibir.Location = new System.Drawing.Point(32, 39);
+            this.btnExibir.Name = "btnExibir";
+            this.btnExibir.Size = new System.Drawing.Size(96, 44);
+            this.btnExibir.TabIndex = 0;
+            this.btnExibir.Text = "Ler e Somar";
+            this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(156, 119);
-            this.Controls.Add(this.btnIniciar);
+            this.ClientSize = new System.Drawing.Size(153, 123);
+            this.Controls.Add(this.btnExibir);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -56,7 +56,7 @@ namespace ExibirMatrizTabela
 
         #endregion
 
-        private System.Windows.Forms.Button btnIniciar;
+        private System.Windows.Forms.Button btnExibir;
     }
 }
 
