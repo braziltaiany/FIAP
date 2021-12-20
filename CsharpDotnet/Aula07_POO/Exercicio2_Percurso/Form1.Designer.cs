@@ -1,5 +1,5 @@
 ﻿
-namespace POO
+namespace Exercicio2_Percurso
 {
     partial class Form1
     {

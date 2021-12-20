@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POO
+namespace Exercicio2_Percurso
 {
     public partial class Form1 : Form
     {
