@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizDesafio1_SomaTodosEle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizDesafio2_SomaMediaMultip", "MatrizDesafio2_SomaMediaMultip\MatrizDesafio2_SomaMediaMultip.csproj", "{39C78CD8-B58C-4E03-BEB6-3DB1A580AED1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizDesafio1_Resolvido", "Desafio1_Resolvido_\MatrizDesafio1_Resolvido.csproj", "{951DB8F8-7580-4975-9E73-868F83A7E462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrizDesafio2_resolvido", "MatrizDesafio2_resolvido\MatrizDesafio2_resolvido.csproj", "{D1D1056D-54FB-4999-B813-124567B6B2A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{39C78CD8-B58C-4E03-BEB6-3DB1A580AED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39C78CD8-B58C-4E03-BEB6-3DB1A580AED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C78CD8-B58C-4E03-BEB6-3DB1A580AED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951DB8F8-7580-4975-9E73-868F83A7E462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951DB8F8-7580-4975-9E73-868F83A7E462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951DB8F8-7580-4975-9E73-868F83A7E462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951DB8F8-7580-4975-9E73-868F83A7E462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D1056D-54FB-4999-B813-124567B6B2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D1056D-54FB-4999-B813-124567B6B2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D1056D-54FB-4999-B813-124567B6B2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D1056D-54FB-4999-B813-124567B6B2A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
