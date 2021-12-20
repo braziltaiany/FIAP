@@ -1,15 +1,16 @@
 # 📌FIAP
 
-* 📚 C#.NET:
+* 📚GitHub
+* 📚C#.NET:
 	* 📚Criando WinFormsApp
 	* 📚Variáveis númericas
 	* 📚Operadores lógicos	
 	* 📚Estrutura repetitiva
 	* 📚Estrutura condicional
 	* 📚Array
-	* 📚Matrizes
+	* 📚Matrizes	
 	* 📚Desafios
-* 📚GitHub
+* 📚POO
 * 📚DevOps & Agile Culture
 * 📚MySQL
 * 📚Services Architecture / API / Mobile
