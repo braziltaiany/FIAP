@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace Viagem
 {
@@ -22,7 +23,12 @@ namespace Viagem
         }
         public void cadastrarPercurso()
         {
-           
+            //adcionando o cadastro do percurso e inutilizando os campos do formulário
+            this.kmPecorrida = double.Parse(Interaction.InputBox("Digite a km percorrida"));
+            this.valorCombustivel = double.Parse(Interaction.InputBox("Digite o valor do combustivel"));
+            this.valorPedagio = double.Parse(Interaction.InputBox("Digite o valor do pedagio"));
+
+            MessageBox.Show("Percurso cadastrado");
         }
         public void listarPercurso()
         {

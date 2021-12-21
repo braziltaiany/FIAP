@@ -16,9 +16,9 @@ namespace Viagem
         private void btnCalcular_Click(object sender, EventArgs e)
         {           
 
-            p.valorPedagio = double.Parse(txtPedagios.Text);
-            p.valorCombustivel = double.Parse(txtVComb.Text);
-            p.kmPecorrida = double.Parse(txtKMPecorrida.Text);
+            //p.valorPedagio = double.Parse(txtPedagios.Text);
+            //p.valorCombustivel = double.Parse(txtVComb.Text);
+           // p.kmPecorrida = double.Parse(txtKMPecorrida.Text);
 
             c.calcularViagem(p);
 
@@ -30,6 +30,11 @@ namespace Viagem
         {
             //Listando os percursos
             p.listarPercurso();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            p.cadastrarPercurso();
         }
     }
 }

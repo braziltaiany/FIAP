@@ -37,6 +37,7 @@ namespace Viagem
             this.txtVComb = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnListar = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -89,7 +90,7 @@ namespace Viagem
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(168, 53);
+            this.btnCalcular.Location = new System.Drawing.Point(168, 30);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 6;
@@ -99,7 +100,7 @@ namespace Viagem
             // 
             // btnListar
             // 
-            this.btnListar.Location = new System.Drawing.Point(168, 101);
+            this.btnListar.Location = new System.Drawing.Point(168, 77);
             this.btnListar.Name = "btnListar";
             this.btnListar.Size = new System.Drawing.Size(75, 23);
             this.btnListar.TabIndex = 7;
@@ -107,11 +108,22 @@ namespace Viagem
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.Location = new System.Drawing.Point(168, 124);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrar.TabIndex = 8;
+            this.btnCadastrar.Text = "cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(273, 174);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtVComb);
@@ -137,6 +149,7 @@ namespace Viagem
         private System.Windows.Forms.TextBox txtVComb;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Button btnCadastrar;
     }
 }
 
