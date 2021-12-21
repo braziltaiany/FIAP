@@ -24,7 +24,7 @@
         //MÉTODOS DA CLASSE
         public double calculoComissao(double valorVendido)
         {
-            return valorVendido * 10.00;
+            return valorVendido * 0.10;
         }
 
     }

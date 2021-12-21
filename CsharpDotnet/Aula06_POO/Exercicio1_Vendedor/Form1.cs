@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Exercicio1_Vendedor
@@ -19,10 +12,10 @@ namespace Exercicio1_Vendedor
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            Vendedor calcular = new Vendedor();
-
-            lblRes.Text = $"O vendedor(a): {txtNome.Text} \nReceberá com a comissão o total de : R${calcular.calculoComissao(double.Parse(txtSalario.Text)).ToString()}";
-
+            //Instanciando objeto com parametro
+            Vendedor v = new Vendedor(txtNome.Text, double.Parse(txtSalario.Text));
+            
+            lblRes.Text = $"Comissão: R${v.calculoComissao(double.Parse(txtVendas.Text))}";
         }
     }
 }

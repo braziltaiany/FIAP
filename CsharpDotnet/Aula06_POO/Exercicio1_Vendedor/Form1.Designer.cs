@@ -35,6 +35,8 @@ namespace Exercicio1_Vendedor
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtVendas = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblRes
@@ -48,7 +50,7 @@ namespace Exercicio1_Vendedor
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(94, 89);
+            this.btnCalcular.Location = new System.Drawing.Point(94, 112);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(206, 23);
             this.btnCalcular.TabIndex = 13;
@@ -88,11 +90,29 @@ namespace Exercicio1_Vendedor
             this.label2.TabIndex = 17;
             this.label2.Text = "Salario";
             // 
+            // txtVendas
+            // 
+            this.txtVendas.Location = new System.Drawing.Point(94, 86);
+            this.txtVendas.Name = "txtVendas";
+            this.txtVendas.Size = new System.Drawing.Size(206, 20);
+            this.txtVendas.TabIndex = 18;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 89);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 13);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "total vendas:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(324, 170);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtVendas);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNome);
@@ -114,6 +134,8 @@ namespace Exercicio1_Vendedor
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtVendas;
+        private System.Windows.Forms.Label label3;
     }
 }
 
