@@ -1,5 +1,5 @@
 ﻿
-namespace Desafio2_Percurso
+namespace Viagem
 {
     partial class Form1
     {
@@ -36,6 +36,7 @@ namespace Desafio2_Percurso
             this.txtPedagios = new System.Windows.Forms.TextBox();
             this.txtVComb = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.btnListar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,11 +97,22 @@ namespace Desafio2_Percurso
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // btnListar
+            // 
+            this.btnListar.Location = new System.Drawing.Point(168, 101);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(75, 23);
+            this.btnListar.TabIndex = 7;
+            this.btnListar.Text = "Listar";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(273, 174);
+            this.Controls.Add(this.btnListar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtVComb);
             this.Controls.Add(this.txtPedagios);
@@ -124,6 +136,7 @@ namespace Desafio2_Percurso
         private System.Windows.Forms.TextBox txtPedagios;
         private System.Windows.Forms.TextBox txtVComb;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Button btnListar;
     }
 }
 

@@ -1,26 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Desafio2_Percurso
+namespace Viagem
 {
     public partial class Form1 : Form
     {
+        //Instanciando como globais
+        Percurso p = new Percurso();
+        Custos c = new Custos();
         public Form1()
         {
             InitializeComponent();
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
-        {
-            Percurso p = new Percurso();
-            Custos c = new Custos();
+        {           
 
             p.valorPedagio = double.Parse(txtPedagios.Text);
             p.valorCombustivel = double.Parse(txtVComb.Text);
@@ -30,6 +24,12 @@ namespace Desafio2_Percurso
 
             MessageBox.Show($"O custo total da viagem foi: R${c.totalPercurso.ToString("F2")}");
             
+        }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            //Listando os percursos
+            p.listarPercurso();
         }
     }
 }

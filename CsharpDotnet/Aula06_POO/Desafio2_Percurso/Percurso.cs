@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Forms;
 
-namespace Desafio2_Percurso
+namespace Viagem
 {
     class Percurso
     {
@@ -30,7 +26,10 @@ namespace Desafio2_Percurso
         }
         public void listarPercurso()
         {
-
+            MessageBox.Show($"Dados do percurso cadastrado: \n\n" +
+                $"KM Pecorrida {this.kmPecorrida.ToString()}\n" +
+                $"Pedágios: R${this.valorPedagio.ToString("F2")}\n" +
+                $"Combustível: R${this.valorCombustivel.ToString("F2")}\n");
         }
     }
 }
