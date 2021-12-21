@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Livraria_Heranca
 {
@@ -28,8 +29,22 @@ namespace Livraria_Heranca
             this.precoCusto = 0;
         }
 
+        public void comprar(int quantidade)
+        {
+            this.estoqueDisponivel += quantidade;
+        }
+        public void vender(int quantidade)
+        {
 
+            if(quantidade > this.estoqueDisponivel)
+            {
 
-
+            MessageBox.Show("Quantidade em estoque indisponivel \nVenda cancelada");
+            }
+            else
+            {
+                this.estoqueDisponivel -= quantidade;
+            }
+        }
     }
 }
