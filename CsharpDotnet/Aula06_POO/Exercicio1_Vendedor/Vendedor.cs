@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercicio1_Vendedor
+﻿namespace Exercicio1_Vendedor
 {
     class Vendedor
     {
@@ -13,9 +7,16 @@ namespace Exercicio1_Vendedor
 
         public Vendedor()
         {
+            this.nome = "";
+            this.salarioBase = 0;
+        }
+
+        public Vendedor(string nome, double salarioBase)
+        {
             this.nome = nome;
             this.salarioBase = salarioBase;
         }
+
         public double calculoComissao(double valorVendido)
         {
             return valorVendido * 10.00;
