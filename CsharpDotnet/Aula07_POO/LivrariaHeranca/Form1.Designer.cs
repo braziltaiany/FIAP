@@ -1,5 +1,4 @@
-﻿
-namespace LivrariaHeranca
+﻿namespace LivrariaHeranca
 {
     partial class Form1
     {
@@ -33,6 +32,7 @@ namespace LivrariaHeranca
             this.txtCompraVenda = new System.Windows.Forms.TextBox();
             this.tabPage = new System.Windows.Forms.TabControl();
             this.tabPageLivro = new System.Windows.Forms.TabPage();
+            this.btnListar = new System.Windows.Forms.Button();
             this.btnVender = new System.Windows.Forms.Button();
             this.btnComprar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
@@ -43,6 +43,7 @@ namespace LivrariaHeranca
             this.txtAutor = new System.Windows.Forms.TextBox();
             this.Autor = new System.Windows.Forms.Label();
             this.tabPageCD = new System.Windows.Forms.TabPage();
+            this.btnListarCD = new System.Windows.Forms.Button();
             this.btnVenderCD = new System.Windows.Forms.Button();
             this.btnComprarCD = new System.Windows.Forms.Button();
             this.btnCadastrarCD = new System.Windows.Forms.Button();
@@ -53,6 +54,7 @@ namespace LivrariaHeranca
             this.txtArtista = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.tabPageDVD = new System.Windows.Forms.TabPage();
+            this.btnListarDVD = new System.Windows.Forms.Button();
             this.btnVenderDVD = new System.Windows.Forms.Button();
             this.btnComprarDVD = new System.Windows.Forms.Button();
             this.btnCadastrarDVD = new System.Windows.Forms.Button();
@@ -70,7 +72,6 @@ namespace LivrariaHeranca
             this.txtGenero = new System.Windows.Forms.TextBox();
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnListar = new System.Windows.Forms.Button();
             this.tabPage.SuspendLayout();
             this.tabPageLivro.SuspendLayout();
             this.tabPageCD.SuspendLayout();
@@ -123,6 +124,16 @@ namespace LivrariaHeranca
             this.tabPageLivro.TabIndex = 0;
             this.tabPageLivro.Text = "Livro";
             this.tabPageLivro.UseVisualStyleBackColor = true;
+            // 
+            // btnListar
+            // 
+            this.btnListar.Location = new System.Drawing.Point(249, 158);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(75, 23);
+            this.btnListar.TabIndex = 9;
+            this.btnListar.Text = "Listar";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // btnVender
             // 
@@ -202,6 +213,7 @@ namespace LivrariaHeranca
             // 
             // tabPageCD
             // 
+            this.tabPageCD.Controls.Add(this.btnListarCD);
             this.tabPageCD.Controls.Add(this.btnVenderCD);
             this.tabPageCD.Controls.Add(this.btnComprarCD);
             this.tabPageCD.Controls.Add(this.btnCadastrarCD);
@@ -219,32 +231,45 @@ namespace LivrariaHeranca
             this.tabPageCD.Text = "CD";
             this.tabPageCD.UseVisualStyleBackColor = true;
             // 
+            // btnListarCD
+            // 
+            this.btnListarCD.Location = new System.Drawing.Point(256, 172);
+            this.btnListarCD.Name = "btnListarCD";
+            this.btnListarCD.Size = new System.Drawing.Size(75, 23);
+            this.btnListarCD.TabIndex = 18;
+            this.btnListarCD.Text = "Listar";
+            this.btnListarCD.UseVisualStyleBackColor = true;
+            this.btnListarCD.Click += new System.EventHandler(this.btnListarCD_Click);
+            // 
             // btnVenderCD
             // 
-            this.btnVenderCD.Location = new System.Drawing.Point(241, 164);
+            this.btnVenderCD.Location = new System.Drawing.Point(175, 172);
             this.btnVenderCD.Name = "btnVenderCD";
             this.btnVenderCD.Size = new System.Drawing.Size(75, 23);
             this.btnVenderCD.TabIndex = 17;
             this.btnVenderCD.Text = "Vender";
             this.btnVenderCD.UseVisualStyleBackColor = true;
+            this.btnVenderCD.Click += new System.EventHandler(this.btnVenderCD_Click);
             // 
             // btnComprarCD
             // 
-            this.btnComprarCD.Location = new System.Drawing.Point(131, 164);
+            this.btnComprarCD.Location = new System.Drawing.Point(94, 172);
             this.btnComprarCD.Name = "btnComprarCD";
             this.btnComprarCD.Size = new System.Drawing.Size(75, 23);
             this.btnComprarCD.TabIndex = 16;
             this.btnComprarCD.Text = "comprar";
             this.btnComprarCD.UseVisualStyleBackColor = true;
+            this.btnComprarCD.Click += new System.EventHandler(this.btnComprarCD_Click);
             // 
             // btnCadastrarCD
             // 
-            this.btnCadastrarCD.Location = new System.Drawing.Point(14, 164);
+            this.btnCadastrarCD.Location = new System.Drawing.Point(14, 172);
             this.btnCadastrarCD.Name = "btnCadastrarCD";
             this.btnCadastrarCD.Size = new System.Drawing.Size(75, 23);
             this.btnCadastrarCD.TabIndex = 15;
             this.btnCadastrarCD.Text = "cadastrar";
             this.btnCadastrarCD.UseVisualStyleBackColor = true;
+            this.btnCadastrarCD.Click += new System.EventHandler(this.BtnCadastrarCD_Click);
             // 
             // txtOrigem
             // 
@@ -296,6 +321,7 @@ namespace LivrariaHeranca
             // 
             // tabPageDVD
             // 
+            this.tabPageDVD.Controls.Add(this.btnListarDVD);
             this.tabPageDVD.Controls.Add(this.btnVenderDVD);
             this.tabPageDVD.Controls.Add(this.btnComprarDVD);
             this.tabPageDVD.Controls.Add(this.btnCadastrarDVD);
@@ -313,23 +339,35 @@ namespace LivrariaHeranca
             this.tabPageDVD.Text = "DVD";
             this.tabPageDVD.UseVisualStyleBackColor = true;
             // 
+            // btnListarDVD
+            // 
+            this.btnListarDVD.Location = new System.Drawing.Point(256, 164);
+            this.btnListarDVD.Name = "btnListarDVD";
+            this.btnListarDVD.Size = new System.Drawing.Size(75, 23);
+            this.btnListarDVD.TabIndex = 27;
+            this.btnListarDVD.Text = "Listar";
+            this.btnListarDVD.UseVisualStyleBackColor = true;
+            this.btnListarDVD.Click += new System.EventHandler(this.btnListarDVD_Click);
+            // 
             // btnVenderDVD
             // 
-            this.btnVenderDVD.Location = new System.Drawing.Point(256, 164);
+            this.btnVenderDVD.Location = new System.Drawing.Point(176, 164);
             this.btnVenderDVD.Name = "btnVenderDVD";
             this.btnVenderDVD.Size = new System.Drawing.Size(75, 23);
             this.btnVenderDVD.TabIndex = 26;
             this.btnVenderDVD.Text = "Vender";
             this.btnVenderDVD.UseVisualStyleBackColor = true;
+            this.btnVenderDVD.Click += new System.EventHandler(this.btnVenderDVD_Click);
             // 
             // btnComprarDVD
             // 
-            this.btnComprarDVD.Location = new System.Drawing.Point(142, 164);
+            this.btnComprarDVD.Location = new System.Drawing.Point(95, 164);
             this.btnComprarDVD.Name = "btnComprarDVD";
             this.btnComprarDVD.Size = new System.Drawing.Size(75, 23);
             this.btnComprarDVD.TabIndex = 25;
             this.btnComprarDVD.Text = "comprar";
             this.btnComprarDVD.UseVisualStyleBackColor = true;
+            this.btnComprarDVD.Click += new System.EventHandler(this.btnComprarDVD_Click);
             // 
             // btnCadastrarDVD
             // 
@@ -339,6 +377,7 @@ namespace LivrariaHeranca
             this.btnCadastrarDVD.TabIndex = 24;
             this.btnCadastrarDVD.Text = "cadastrar";
             this.btnCadastrarDVD.UseVisualStyleBackColor = true;
+            this.btnCadastrarDVD.Click += new System.EventHandler(this.btnCadastrarDVD_Click);
             // 
             // txtCensura
             // 
@@ -452,16 +491,6 @@ namespace LivrariaHeranca
             this.label1.TabIndex = 11;
             this.label1.Text = "Descrição do Produto:";
             // 
-            // btnListar
-            // 
-            this.btnListar.Location = new System.Drawing.Point(249, 158);
-            this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(75, 23);
-            this.btnListar.TabIndex = 9;
-            this.btnListar.Text = "Listar";
-            this.btnListar.UseVisualStyleBackColor = true;
-            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -536,6 +565,8 @@ namespace LivrariaHeranca
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Button btnListarCD;
+        private System.Windows.Forms.Button btnListarDVD;
     }
 }
 
