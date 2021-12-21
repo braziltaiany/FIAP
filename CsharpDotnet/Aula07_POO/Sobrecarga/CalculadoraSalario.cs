@@ -11,13 +11,12 @@
             this.qtdeHora = 0;
         }
 
-        public double CalcularSalario()
+        //virtual: permitindo que o metodo seja subscrito na minha sublasse 
+        public virtual double CalcularSalario()
         {
             return this.valorHora * this.qtdeHora;
         }
-        public double CalcularSalario(double cotacaoDolar)
-        {
-            return (this.valorHora * this.qtdeHora) * cotacaoDolar;
-        }
+
+
     }
 }
