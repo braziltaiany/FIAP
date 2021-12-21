@@ -1,5 +1,5 @@
 ﻿
-namespace Livraria_Herança
+namespace Livraria_Heranca
 {
     partial class Form1
     {
@@ -32,24 +32,23 @@ namespace Livraria_Herança
             this.label1 = new System.Windows.Forms.Label();
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.txtGenero = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtEstoque = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPreco = new System.Windows.Forms.TextBox();
             this.tabPage = new System.Windows.Forms.TabControl();
             this.tabPageLivro = new System.Windows.Forms.TabPage();
-            this.tabPageCD = new System.Windows.Forms.TabPage();
-            this.tabPageDVD = new System.Windows.Forms.TabPage();
-            this.Autor = new System.Windows.Forms.Label();
-            this.txtAutor = new System.Windows.Forms.TextBox();
-            this.txtEditora = new System.Windows.Forms.TextBox();
-            this.Editora = new System.Windows.Forms.Label();
+            this.btnVender = new System.Windows.Forms.Button();
+            this.btnComprar = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.txtEdicao = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.btnComprar = new System.Windows.Forms.Button();
-            this.btnVender = new System.Windows.Forms.Button();
+            this.txtEditora = new System.Windows.Forms.TextBox();
+            this.Editora = new System.Windows.Forms.Label();
+            this.txtAutor = new System.Windows.Forms.TextBox();
+            this.Autor = new System.Windows.Forms.Label();
+            this.tabPageCD = new System.Windows.Forms.TabPage();
             this.btnVenderCD = new System.Windows.Forms.Button();
             this.btnComprarCD = new System.Windows.Forms.Button();
             this.btnCadastrarCD = new System.Windows.Forms.Button();
@@ -59,6 +58,7 @@ namespace Livraria_Herança
             this.label6 = new System.Windows.Forms.Label();
             this.txtArtista = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.tabPageDVD = new System.Windows.Forms.TabPage();
             this.btnVenderDVD = new System.Windows.Forms.Button();
             this.btnComprarDVD = new System.Windows.Forms.Button();
             this.btnCadastrarDVD = new System.Windows.Forms.Button();
@@ -68,6 +68,8 @@ namespace Livraria_Herança
             this.label10 = new System.Windows.Forms.Label();
             this.txtDiretor = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtCompraVenda = new System.Windows.Forms.TextBox();
             this.tabPage.SuspendLayout();
             this.tabPageLivro.SuspendLayout();
             this.tabPageCD.SuspendLayout();
@@ -97,12 +99,12 @@ namespace Livraria_Herança
             this.txtGenero.Size = new System.Drawing.Size(346, 20);
             this.txtGenero.TabIndex = 2;
             // 
-            // textBox3
+            // txtEstoque
             // 
-            this.textBox3.Location = new System.Drawing.Point(16, 144);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(163, 20);
-            this.textBox3.TabIndex = 3;
+            this.txtEstoque.Location = new System.Drawing.Point(16, 144);
+            this.txtEstoque.Name = "txtEstoque";
+            this.txtEstoque.Size = new System.Drawing.Size(163, 20);
+            this.txtEstoque.TabIndex = 3;
             // 
             // label2
             // 
@@ -143,7 +145,7 @@ namespace Livraria_Herança
             this.tabPage.Controls.Add(this.tabPageLivro);
             this.tabPage.Controls.Add(this.tabPageCD);
             this.tabPage.Controls.Add(this.tabPageDVD);
-            this.tabPage.Location = new System.Drawing.Point(16, 180);
+            this.tabPage.Location = new System.Drawing.Point(16, 234);
             this.tabPage.Name = "tabPage";
             this.tabPage.SelectedIndex = 0;
             this.tabPage.Size = new System.Drawing.Size(350, 227);
@@ -168,6 +170,84 @@ namespace Livraria_Herança
             this.tabPageLivro.Text = "Livro";
             this.tabPageLivro.UseVisualStyleBackColor = true;
             // 
+            // btnVender
+            // 
+            this.btnVender.Location = new System.Drawing.Point(249, 158);
+            this.btnVender.Name = "btnVender";
+            this.btnVender.Size = new System.Drawing.Size(75, 23);
+            this.btnVender.TabIndex = 8;
+            this.btnVender.Text = "Vender";
+            this.btnVender.UseVisualStyleBackColor = true;
+            this.btnVender.Click += new System.EventHandler(this.btnVender_Click);
+            // 
+            // btnComprar
+            // 
+            this.btnComprar.Location = new System.Drawing.Point(130, 158);
+            this.btnComprar.Name = "btnComprar";
+            this.btnComprar.Size = new System.Drawing.Size(75, 23);
+            this.btnComprar.TabIndex = 7;
+            this.btnComprar.Text = "comprar";
+            this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
+            // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.Location = new System.Drawing.Point(7, 158);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrar.TabIndex = 6;
+            this.btnCadastrar.Text = "cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
+            // txtEdicao
+            // 
+            this.txtEdicao.Location = new System.Drawing.Point(7, 114);
+            this.txtEdicao.Name = "txtEdicao";
+            this.txtEdicao.Size = new System.Drawing.Size(317, 20);
+            this.txtEdicao.TabIndex = 5;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(4, 97);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 13);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Edição:";
+            // 
+            // txtEditora
+            // 
+            this.txtEditora.Location = new System.Drawing.Point(7, 67);
+            this.txtEditora.Name = "txtEditora";
+            this.txtEditora.Size = new System.Drawing.Size(317, 20);
+            this.txtEditora.TabIndex = 3;
+            // 
+            // Editora
+            // 
+            this.Editora.AutoSize = true;
+            this.Editora.Location = new System.Drawing.Point(4, 50);
+            this.Editora.Name = "Editora";
+            this.Editora.Size = new System.Drawing.Size(40, 13);
+            this.Editora.TabIndex = 2;
+            this.Editora.Text = "Editora";
+            // 
+            // txtAutor
+            // 
+            this.txtAutor.Location = new System.Drawing.Point(7, 24);
+            this.txtAutor.Name = "txtAutor";
+            this.txtAutor.Size = new System.Drawing.Size(317, 20);
+            this.txtAutor.TabIndex = 1;
+            // 
+            // Autor
+            // 
+            this.Autor.AutoSize = true;
+            this.Autor.Location = new System.Drawing.Point(4, 7);
+            this.Autor.Name = "Autor";
+            this.Autor.Size = new System.Drawing.Size(35, 13);
+            this.Autor.TabIndex = 0;
+            this.Autor.Text = "Autor:";
+            // 
             // tabPageCD
             // 
             this.tabPageCD.Controls.Add(this.btnVenderCD);
@@ -186,100 +266,6 @@ namespace Livraria_Herança
             this.tabPageCD.TabIndex = 1;
             this.tabPageCD.Text = "CD";
             this.tabPageCD.UseVisualStyleBackColor = true;
-            // 
-            // tabPageDVD
-            // 
-            this.tabPageDVD.Controls.Add(this.btnVenderDVD);
-            this.tabPageDVD.Controls.Add(this.btnComprarDVD);
-            this.tabPageDVD.Controls.Add(this.btnCadastrarDVD);
-            this.tabPageDVD.Controls.Add(this.txtCensura);
-            this.tabPageDVD.Controls.Add(this.label9);
-            this.tabPageDVD.Controls.Add(this.txtDuracao);
-            this.tabPageDVD.Controls.Add(this.label10);
-            this.tabPageDVD.Controls.Add(this.txtDiretor);
-            this.tabPageDVD.Controls.Add(this.label11);
-            this.tabPageDVD.Location = new System.Drawing.Point(4, 22);
-            this.tabPageDVD.Name = "tabPageDVD";
-            this.tabPageDVD.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageDVD.Size = new System.Drawing.Size(342, 201);
-            this.tabPageDVD.TabIndex = 2;
-            this.tabPageDVD.Text = "DVD";
-            this.tabPageDVD.UseVisualStyleBackColor = true;
-            // 
-            // Autor
-            // 
-            this.Autor.AutoSize = true;
-            this.Autor.Location = new System.Drawing.Point(4, 7);
-            this.Autor.Name = "Autor";
-            this.Autor.Size = new System.Drawing.Size(35, 13);
-            this.Autor.TabIndex = 0;
-            this.Autor.Text = "Autor:";
-            // 
-            // txtAutor
-            // 
-            this.txtAutor.Location = new System.Drawing.Point(7, 24);
-            this.txtAutor.Name = "txtAutor";
-            this.txtAutor.Size = new System.Drawing.Size(317, 20);
-            this.txtAutor.TabIndex = 1;
-            // 
-            // txtEditora
-            // 
-            this.txtEditora.Location = new System.Drawing.Point(7, 67);
-            this.txtEditora.Name = "txtEditora";
-            this.txtEditora.Size = new System.Drawing.Size(317, 20);
-            this.txtEditora.TabIndex = 3;
-            // 
-            // Editora
-            // 
-            this.Editora.AutoSize = true;
-            this.Editora.Location = new System.Drawing.Point(4, 50);
-            this.Editora.Name = "Editora";
-            this.Editora.Size = new System.Drawing.Size(40, 13);
-            this.Editora.TabIndex = 2;
-            this.Editora.Text = "Editora";
-            // 
-            // txtEdicao
-            // 
-            this.txtEdicao.Location = new System.Drawing.Point(7, 114);
-            this.txtEdicao.Name = "txtEdicao";
-            this.txtEdicao.Size = new System.Drawing.Size(317, 20);
-            this.txtEdicao.TabIndex = 5;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(4, 97);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 13);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Edição:";
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.Location = new System.Drawing.Point(7, 158);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
-            this.btnCadastrar.TabIndex = 6;
-            this.btnCadastrar.Text = "cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            // 
-            // btnComprar
-            // 
-            this.btnComprar.Location = new System.Drawing.Point(130, 158);
-            this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(75, 23);
-            this.btnComprar.TabIndex = 7;
-            this.btnComprar.Text = "comprar";
-            this.btnComprar.UseVisualStyleBackColor = true;
-            // 
-            // btnVender
-            // 
-            this.btnVender.Location = new System.Drawing.Point(249, 158);
-            this.btnVender.Name = "btnVender";
-            this.btnVender.Size = new System.Drawing.Size(75, 23);
-            this.btnVender.TabIndex = 8;
-            this.btnVender.Text = "Vender";
-            this.btnVender.UseVisualStyleBackColor = true;
             // 
             // btnVenderCD
             // 
@@ -356,6 +342,25 @@ namespace Livraria_Herança
             this.label8.TabIndex = 9;
             this.label8.Text = "Artista:";
             // 
+            // tabPageDVD
+            // 
+            this.tabPageDVD.Controls.Add(this.btnVenderDVD);
+            this.tabPageDVD.Controls.Add(this.btnComprarDVD);
+            this.tabPageDVD.Controls.Add(this.btnCadastrarDVD);
+            this.tabPageDVD.Controls.Add(this.txtCensura);
+            this.tabPageDVD.Controls.Add(this.label9);
+            this.tabPageDVD.Controls.Add(this.txtDuracao);
+            this.tabPageDVD.Controls.Add(this.label10);
+            this.tabPageDVD.Controls.Add(this.txtDiretor);
+            this.tabPageDVD.Controls.Add(this.label11);
+            this.tabPageDVD.Location = new System.Drawing.Point(4, 22);
+            this.tabPageDVD.Name = "tabPageDVD";
+            this.tabPageDVD.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageDVD.Size = new System.Drawing.Size(342, 201);
+            this.tabPageDVD.TabIndex = 2;
+            this.tabPageDVD.Text = "DVD";
+            this.tabPageDVD.UseVisualStyleBackColor = true;
+            // 
             // btnVenderDVD
             // 
             this.btnVenderDVD.Location = new System.Drawing.Point(256, 164);
@@ -431,17 +436,35 @@ namespace Livraria_Herança
             this.label11.TabIndex = 18;
             this.label11.Text = "Diretor:";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(13, 179);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(128, 13);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "Qtde do produto vendido:";
+            // 
+            // txtCompraVenda
+            // 
+            this.txtCompraVenda.Location = new System.Drawing.Point(16, 195);
+            this.txtCompraVenda.Name = "txtCompraVenda";
+            this.txtCompraVenda.Size = new System.Drawing.Size(163, 20);
+            this.txtCompraVenda.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 419);
+            this.ClientSize = new System.Drawing.Size(387, 482);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.txtCompraVenda);
             this.Controls.Add(this.tabPage);
             this.Controls.Add(this.txtPreco);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtEstoque);
             this.Controls.Add(this.txtGenero);
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.label1);
@@ -464,7 +487,7 @@ namespace Livraria_Herança
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.TextBox txtGenero;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtEstoque;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -500,6 +523,8 @@ namespace Livraria_Herança
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtDiretor;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtCompraVenda;
     }
 }
 

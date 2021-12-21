@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Livraria_Herança.Properties
+namespace Livraria_Heranca.Properties
 {
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]

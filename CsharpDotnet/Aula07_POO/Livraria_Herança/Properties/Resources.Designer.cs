@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Livraria_Herança.Properties
+namespace Livraria_Heranca.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
