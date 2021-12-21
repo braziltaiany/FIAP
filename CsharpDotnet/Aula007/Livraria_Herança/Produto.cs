@@ -38,8 +38,7 @@ namespace Livraria_Heranca
 
             if(quantidade > this.estoqueDisponivel)
             {
-
-            MessageBox.Show("Quantidade em estoque indisponivel \nVenda cancelada");
+                MessageBox.Show("Quantidade em estoque indisponivel \nVenda cancelada");
             }
             else
             {
